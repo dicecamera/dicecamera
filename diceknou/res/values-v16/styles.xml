@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme for API 16+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v16/styles.xml on API 16+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 16 theme customizations can go here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="BodyButtonTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FF333333</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textAlignment" tools:targetApi="17">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="FilterTitleTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textAlignment" tools:targetApi="17">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">64sp</item>
+    </style>
+
+    <style name="TimerHUDTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textAlignment" tools:targetApi="17">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">92sp</item>
+    </style>
+    
+</resources>

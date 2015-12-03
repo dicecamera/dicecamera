@@ -1,0 +1,7 @@
+<resources>
+
+    <bool name="isTablet">true</bool>
+
+    <string name="layout">sw720dp</string>
+
+</resources>

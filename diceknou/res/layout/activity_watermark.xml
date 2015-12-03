@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".WatermarkActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/transparent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent" >
+
+            <TableRow
+                android:id="@+id/wm_simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_simple_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_stamp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_stamp2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/wm_stamp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_stamp3_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_renewal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_renewal2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_pop2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_pop2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_vintage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_vintage_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/wm_new2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new4_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new6_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new9_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new10_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_stamp_full"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_stamp_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_rb_full"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_rb_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new11_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_new12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_new12_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wm_ver1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/watermark_row_background"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/wm_ver1_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="fitCenter" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/transparent" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

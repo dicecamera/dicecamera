@@ -1,0 +1,3 @@
+[submodule "AdColony-Android-SDK"]
+	path = AdColony-Android-SDK
+	url = https://github.com/AdColony/AdColony-Android-SDK.git

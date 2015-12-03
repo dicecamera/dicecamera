@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:state_selected="true"><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_head" />
+
+                    <stroke android:width="2dp" android:color="@color/dicecam_head" />
+                </shape></item>
+            <item android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"><shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+
+                    <solid android:color="@color/white" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_selected="true"><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_head" />
+
+                    <stroke android:width="2dp" android:color="@color/dicecam_head" />
+                </shape></item>
+            <item android:bottom="16dp" android:left="16dp" android:right="16dp" android:top="16dp"><shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+
+                    <solid android:color="@color/white" />
+                </shape></item>
+        </layer-list></item>
+    <item android:state_pressed="true"><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_head" />
+
+                    <stroke android:width="2dp" android:color="@color/dicecam_head" />
+                </shape></item>
+            <item android:bottom="6dp" android:left="6dp" android:right="6dp" android:top="6dp"><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_head" />
+                </shape></item>
+        </layer-list></item>
+    <item><layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_body" />
+
+                    <stroke android:width="2dp" android:color="@color/dicecam_head" />
+                </shape></item>
+            <item android:bottom="6dp" android:left="6dp" android:right="6dp" android:top="6dp"><shape android:shape="oval">
+                    <solid android:color="@color/dicecam_head" />
+                </shape></item>
+        </layer-list></item>
+
+</selector>

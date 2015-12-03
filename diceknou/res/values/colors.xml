@@ -1,0 +1,57 @@
+<resources>
+    
+    <color name="transparent">#00000000</color>
+    <color name="dicecam_head">#FFF2397C  </color>
+    <color name="dicecam_collage">#FFF2397C</color>
+    <color name="dicecam_shape_stroke_color">#FFF2397C</color>
+    <color name="dicecam_shape_solid_color">#FFF2397C</color>
+    <color name="dicecam_collage_background">#00000000 </color>
+    <color name="dicecam_toggle_on">#FFF2397C</color>
+    <color name="dicecam_toggle_off">#66F2397C</color>
+    <color name="dicecam_option_text">#FFF2397C  </color>
+    
+    <color name="dicecam_body">#FFFFFFFF</color>
+    
+
+    
+    
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    
+    <color name="black_overlay">#66000000</color>
+    
+    
+    
+    <color name="border_gray_light">#FFCBCBCB</color>
+    <color name="border_gray">#FFB2B2B2</color>
+    <color name="background_gray">#FFEAEAF1</color>
+    <color name="option_background">#FFFFFFFF</color>
+    
+    <color name="collage_progress">#FF99CC00</color>
+    <color name="point_blue_dark">#FF0099CC</color>
+    <color name="point_purple_light">#FFAA66CC</color>
+    <color name="point_purple_dark">#FF9933CC</color>
+    <color name="point_green_light">#FF99CC00</color>
+    <color name="point_green_dark">#FF669900</color>
+    <color name="point_yellow_light">#FFFFBB33</color>
+    <color name="point_yellow_dark">#FFFF8800</color>
+    <color name="point_red_light">#FFFF4444</color>
+    <color name="point_red_dark">#FFCC0000</color>
+    
+    <color name="shutter_taking_color">#BBFFFFFF</color>
+    <color name="shutter_close_color">#66000000</color>
+    
+    <color name="head_button_focused_background">#40FFFFFF</color>
+    
+    <color name="remove_ad_button_color_selected">#FFFFFFFF</color>
+    <color name="remove_ad_button_color_normal">#DD007AFF</color>
+    
+    <color name="remove_ad_button_bg_selected">#FF007AFF</color>
+    <color name="remove_ad_button_bg_normal">#44007AFF</color>
+    
+    <color name="table_dark_text">#FF605F65</color>
+    <color name="table_head_text">#FF605F65</color>
+    <color name="table_text_color">#FF000000</color>
+    <color name="table_line_color">#FFC7C5C9</color>
+    
+</resources>

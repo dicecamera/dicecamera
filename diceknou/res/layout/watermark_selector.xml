@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sorasoft.dicecam.view.watermark.WatermarkSelector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <HorizontalScrollView
+            android:id="@+id/watermark_selector_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            tools:targetApi="3" >
+
+            <LinearLayout
+                android:id="@+id/watermark_selector_linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="12dp" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:id="@+id/watermark_selector_save_button"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow_down_selector"
+            android:contentDescription="@string/arrow_down"
+            android:src="@drawable/arrow_down_image_selector" />
+    </LinearLayout>
+
+</com.sorasoft.dicecam.view.watermark.WatermarkSelector>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiceCamera</string>
+    <string name="copyright">Copyright © 2015 SoraSoft Co.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="share_image">Share Image</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="flip_camera_btn">Flip Camera</string>
+    <string name="settings_btn">Settings</string>
+    <string name="album_btn">.</string>
+    <string name="filter_btn">Filters</string>
+    <string name="random_filter_btn">.</string>
+    <string name="frame_btn">Frame</string>
+    <string name="vignette_btn">Vignette</string>
+    <string name="blur_btn">Blur</string>
+    <string name="collage_btn">Collage</string>
+    <string name="timer_btn">Timer</string>
+    <string name="txt_width">WIDTH</string>
+    <string name="txt_color">COLOR</string>
+    <string name="txt_width_none">None</string>
+    <string name="width_light">Light</string>
+    <string name="width_bold">Bold</string>
+    <string name="color_black">Black</string>
+    <string name="color_white">White</string>
+    <string name="timer_label">TIMER</string>
+    <string name="interval_label">INTERVAL</string>
+    <string name="close_button">Close</string>
+    <string name="upgrade_text">UPGRADE</string>
+    <string name="live_preview_text">Live Effect</string>
+    <string name="preview_saving">Save as preview</string>
+    <string name="add_geo_tag">Add Geo Tag</string>
+    <string name="watermark">Watermark</string>
+    <string name="select_a_logo">Select a Logo</string>
+    <string name="watermark_tail">You will see a Dicecam logo in your photos.</string>
+    <string name="love_dicecam">LOVE DICECAM?</string>
+    <string name="rate_this_app">Give 5 Stars to DiceCamera!</string>
+    <string name="tell_a_friend">Tell a friend</string>
+    <string name="tell_a_friend_subject">Take Dice camera!</string>
+    <string name="share_to_friend">Check out this awesome app, you can take photos with gorgeous filters! http://dicecamera.net</string>
+    <string name="dicecam_on_facebook">DiceCamera on Facebook</string>
+    <string name="pro_upgrade_text">Pro Upgrade</string>
+    <string name="pro_upgrade_desc">Pro Upgrade</string>
+    <string name="touch_sound">Touch Sound</string>
+    <string name="about">ABOUT</string>
+    <string name="more_applications">More Applications</string>
+    <string name="faq">Open Source Lincese</string>
+    <string name="email_the_developer">Email the Developer</string>
+    <string name="feedback_title">Dicecam Feedback</string>
+    <string name="version_on_setting">Version</string>
+    <string name="back_button">&lt; Back</string>
+    <string name="arrow_down">Close</string>
+    <string name="remove_ad">Remove Ads</string>
+    <string name="remove_ad_desc">You won\'t see ads anymore.</string>
+    <string name="loading">Loading</string>
+    <string name="error">Error</string>
+    <string name="saving_temporary_file_error">Can\'t create a temporary file.</string>
+    <string name="saving_error">An Error occurred while saving a photo to your storage. Please check your internal/external storage.</string>
+    <string name="camera_error">Dicecam cannot connect to your camera.</string>
+    <string name="buy">Buy</string>
+    <string name="restore">Restore Payment</string>
+    <string name="thank_you">Thank You</string>
+    <string name="geo_tag">Geo Tag</string>
+    <string name="live_effect_disabled">Live Effect disabled</string>
+    <string name="save_to_removable_storage">Save to Removable Storage</string>
+    <string name="purchasing_is_failed">Purchasing is failed.</string>
+    <string name="your_purchase_was_canceled">Your purchase was canceled.</string>
+    
+    <string-array name="months_abbreviated">
+		<item>Jan</item>
+		<item>Feb</item>
+		<item>Mar</item>
+		<item>Apr</item>
+		<item>May</item>
+		<item>Jun</item>
+		<item>Jul</item>
+		<item>Aug</item>
+		<item>Sep</item>
+		<item>Oct</item>
+		<item>Nov</item>
+		<item>Dec</item>
+	</string-array>
+
+</resources>

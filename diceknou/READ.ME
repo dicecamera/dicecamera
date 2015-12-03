@@ -1,0 +1,22 @@
+cd -P
+
+
+export NDK_PROJECT_PATH=`pwd`
+
+rollback to make 3.80 (Geant4)
+
+cd /usr/bin
+mv make.exe make_381.exe
+wget http://geant4.cern.ch/support/extras/cygwin/make.exe
+chmod +x make.exe
+install libintl2 from cygwin setup for the required cygintl-2.dll
+
+share|improve this answer
+
+
+
+ndk-build NDK_APP_APPLICATION_MK=jni/ApplicationDistribution.mk
+
+Documentation is wrong here - misspelled option. Use NDK_APPLICATION_MK instead of NDK_APP_APPLICATION_MK.
+
+

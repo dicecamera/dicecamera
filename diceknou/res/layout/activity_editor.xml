@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_gray"
+    tools:context="com.sorasoft.dicecam.editor.EditorActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/transparent" >
+
+            <com.sorasoft.dicecam.view.album.UniversalImageLoader
+                android:id="@+id/editor_lazy_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent" >
+
+                <com.sorasoft.dicecam.view.EditorPreviewImageView
+                    android:id="@+id/editor_preview_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible" />
+            </com.sorasoft.dicecam.view.album.UniversalImageLoader>
+
+            <TextView
+                android:id="@+id/editor_filter_title_textview"
+                style="@style/FilterTitleTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/editor_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/editor_progress_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/dicecam_head"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <com.sorasoft.dicecam.editor.EditorHeadButtonLayout
+                android:id="@+id/editor_vignette_button"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_vignette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_vignette"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    style="@style/EditorButtonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icon_vignette"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/vignette_btn" />
+            </com.sorasoft.dicecam.editor.EditorHeadButtonLayout>
+
+            <com.sorasoft.dicecam.editor.EditorHeadButtonLayout
+                android:id="@+id/editor_blur_button"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_blur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_blur"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    style="@style/EditorButtonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icon_blur"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/blur_btn" />
+            </com.sorasoft.dicecam.editor.EditorHeadButtonLayout>
+
+            <com.sorasoft.dicecam.editor.EditorHeadButtonLayout
+                android:id="@+id/editor_filter_button"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_filter_white"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    style="@style/EditorButtonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icon_filter"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/filter_btn" />
+            </com.sorasoft.dicecam.editor.EditorHeadButtonLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <ImageButton
+                android:id="@+id/editor_cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/editor_cancel_background"
+                android:src="@drawable/editor_cancel_image"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                android:background="@color/border_gray_light" />
+
+            <ImageButton
+                android:id="@+id/editor_confirm_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/editor_ok_background"
+                android:src="@drawable/editor_ok_image"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/editor_lens_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        layout="@layout/favorites"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" />
+
+</FrameLayout>

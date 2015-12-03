@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical"
+    tools:context=".PurchaseActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/background_gray" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/pro_upgrade_text"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/banner_pro_upgrade" />
+
+            </TableRow>
+
+            <!-- DESCRIPTION : remove ad and purchase pro -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="40dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    style="@style/TableFooterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:singleLine="false"
+                    android:text="@string/pro_upgrade_desc" />
+            </TableRow>
+
+            <!-- buy & restore button -->
+
+            <TableRow
+                android:id="@+id/purchase_buy_button_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/purchase_buy_button"
+                    style="@style/TableButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="@string/buy" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/purchase_restore_button_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/purchase_restore_button"
+                    style="@style/TableButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="@string/restore" />
+            </TableRow>
+
+            <!-- thank you -->
+
+            <TableRow
+                android:id="@+id/purchase_thank_you_button_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/purchase_thank_you_button"
+                    style="@style/TableButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="@string/thank_you" />
+            </TableRow>
+
+            <!-- copyright -->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TableFooterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:gravity="left|bottom"
+                    android:paddingBottom="40dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/copyright" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

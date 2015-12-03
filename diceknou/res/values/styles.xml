@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="LensSelectorPackButtonTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="LensSelectorLensButtonTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/dicecam_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="LensSelectorPackLargeButtonTextView" parent="LensSelectorPackButtonTextView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LensSelectorLensLargeButtonTextView" parent="LensSelectorLensButtonTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="BodyButtonTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    
+    <style name="EditorButtonTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="FilterTitleTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">64sp</item>
+    </style>
+
+    <style name="TimerHUDTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">80sp</item>
+    </style>
+    
+    <style name="RemoveAdButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/remove_ad_button_bg_selector</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CloseButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_pressed</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BackButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="ActivityTitle" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TableFooterTextView" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif-light</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/table_dark_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TableButton" parent="@android:style/Widget.Button">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/point_blue_dark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/table_white_button_bg_selector</item>
+    </style>
+
+    <style name="TableHeadTextView" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:textColor">@color/table_head_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="TableTailTextView" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:textColor">@color/table_head_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">26dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="TableRowTextView" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:textColor">@color/table_text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    
+    <style name="OptionLabelTextView" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:textColor">@color/dicecam_head</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="ActionBarTheme" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/DicecamActionBar</item>
+        <item name="actionBarStyle">@style/DicecamActionBar</item>
+    </style>
+
+    <style name="DicecamActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:background">@color/dicecam_head</item>
+        <item name="background">@color/dicecam_head</item>
+        <item name="android:displayOptions" tools:ignore="NewApi">showHome|useLogo</item>
+        <item name="displayOptions">showHome|useLogo</item>
+    </style>
+        
+</resources>

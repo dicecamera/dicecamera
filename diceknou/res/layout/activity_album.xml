@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical"
+    tools:context=".AlbumActivity" >
+
+    <!--
+    FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/dicecam_head" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ico_title" />
+
+        <Button
+            android:id="@+id/close_button"
+            style="@style/CloseButton"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:text="@string/close_button" />
+    </FrameLayout
+    -->
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:layout_weight="1"
+        android:alwaysDrawnWithCache="true"
+        android:background="@null"
+        android:clipChildren="true"
+        android:columnWidth="100dp"
+        android:fastScrollEnabled="true"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="auto_fit"
+        android:padding="0dp"
+        android:scrollingCache="true"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+
+    <FrameLayout
+        android:id="@+id/album_ad_target_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent" />
+
+</LinearLayout>

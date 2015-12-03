@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:bottom="66dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <solid android:color="@color/collage_progress" />
+
+            <size
+                android:height="20dp"
+                android:width="15dp" />
+        </shape>
+    </item>
+    <item
+        android:top="22dp"
+        android:bottom="44dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <solid android:color="@color/dicecam_collage" />
+
+            <size
+                android:height="20dp"
+                android:width="15dp" />
+        </shape>
+    </item>
+    <item
+        android:top="44dp"
+        android:bottom="22dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <solid android:color="@color/dicecam_collage" />
+
+            <size
+                android:height="20dp"
+                android:width="15dp" />
+        </shape>
+    </item>
+    <item android:top="66dp">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <solid android:color="@color/dicecam_collage" />
+
+            <size
+                android:height="20dp"
+                android:width="15dp" />
+        </shape>
+    </item>
+
+</layer-list>
